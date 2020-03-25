@@ -143,7 +143,8 @@ namespace M.Application.EmailHistory
         [HttpPut("UpdateEmailHistoryInfo")]
         public async Task<ResultDto> UpdateEmailHistoryInfo(UpdateEmailHistoryInfoDto updateEmailHistoryInfoDto)
         {
-            var emailHistory = await _context.EmailHistoryInfo.FirstOrDefaultAsync(e => e.EHID.Equals(updateEmailHistoryInfoDto.EHID));
+            var emailHistory = await _context.EmailHistoryInfo
+                .FindAsync(updateEmailHistoryInfoDto.EHID);
             emailHistory.EmailBody = updateEmailHistoryInfoDto.EmailBody;
             _context.EmailHistoryInfo.Update(emailHistory);
             return new ResultDto()
@@ -160,7 +161,8 @@ namespace M.Application.EmailHistory
         [HttpDelete("DeleteEmailHistoryInfo")]
         public async Task<ResultDto> DeleteEmailHistoryInfo(int EHID)
         {
-            var emailHistory = await _context.EmailHistoryInfo.FirstOrDefaultAsync(e => e.EHID.Equals(EHID));
+            var emailHistory = await _context.EmailHistoryInfo
+                .FindAsync(EHID);
             emailHistory.IsDeleted = 1;
             _context.EmailHistoryInfo.Update(emailHistory);
             return new ResultDto()
@@ -177,7 +179,8 @@ namespace M.Application.EmailHistory
         [HttpDelete("RemoveEmailHistoryInfo")]
         public async Task<ResultDto> RemoveEmailHistoryInfo(int EHID)
         {
-            var emailHistory = await _context.EmailHistoryInfo.FirstOrDefaultAsync(e => e.EHID.Equals(EHID));
+            var emailHistory = await _context.EmailHistoryInfo
+                .FindAsync(EHID);
             _context.EmailHistoryInfo.Remove(emailHistory);
             return new ResultDto()
             {
