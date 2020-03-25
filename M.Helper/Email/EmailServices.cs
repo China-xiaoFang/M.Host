@@ -105,17 +105,19 @@ namespace M.Helper.Email
             // 邮件内容。
             mailMessage.Body = recipientBody + string.Format(MailContent, DateTime.Now.ToString());
             // 实例化一个SmtpClient类。
-            SmtpClient client = new SmtpClient();
-            // IP地址
-            client.Host = Host;
-            // 端口号
-            client.Port = Port;
-            // 使用安全加密连接。
-            client.EnableSsl = true;
-            // 不和请求一块发送。
-            client.UseDefaultCredentials = false;
-            // 验证发件人身份(发件人的邮箱，邮箱里的生成授权码);
-            client.Credentials = new NetworkCredential(AddresserID, AuthorzationCode);
+            SmtpClient client = new SmtpClient
+            {
+                // IP地址
+                Host = Host,
+                // 端口号
+                Port = Port,
+                // 使用安全加密连接。
+                EnableSsl = true,
+                // 不和请求一块发送。
+                UseDefaultCredentials = false,
+                // 验证发件人身份(发件人的邮箱，邮箱里的生成授权码);
+                Credentials = new NetworkCredential(AddresserID, AuthorzationCode)
+            };
             // 签名证书
             ServicePointManager.ServerCertificateValidationCallback = delegate (Object obj, X509Certificate certificate, X509Chain chain, SslPolicyErrors errors) { return true; };
             // 发送

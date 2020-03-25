@@ -50,6 +50,56 @@
             <param name="devloveInfo">表白小工具信息类</param>
             <returns></returns>
         </member>
+        <member name="T:M.Application.Devlove.Dto.DevloveInfoDto">
+            <summary>
+            表白小工具信息类
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLId">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLName">
+            <summary>
+            你的名字
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLoveName">
+            <summary>
+            爱人的名字
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLInfo">
+            <summary>
+            想说的话
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLoveInfo">
+            <summary>
+            终极表白语
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLYear">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLMonth">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLDay">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.DevloveInfoDto.DLQQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
         <member name="T:M.Application.Devlove.Dto.GetAllDevloveInfoResultDto">
             <summary>
             得到所有表白小工具信息
@@ -193,56 +243,6 @@
             </summary>
             <param name="EHID">ID</param>
             <returns></returns>
-        </member>
-        <member name="T:M.Model.Entity.DevloveInfoDto">
-            <summary>
-            表白小工具信息类
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLId">
-            <summary>
-            Id
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLName">
-            <summary>
-            你的名字
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLoveName">
-            <summary>
-            爱人的名字
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLInfo">
-            <summary>
-            想说的话
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLoveInfo">
-            <summary>
-            终极表白语
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLYear">
-            <summary>
-            年
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLMonth">
-            <summary>
-            月
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLDay">
-            <summary>
-            日
-            </summary>
-        </member>
-        <member name="P:M.Model.Entity.DevloveInfoDto.DLQQ">
-            <summary>
-            QQ
-            </summary>
         </member>
     </members>
 </doc>
