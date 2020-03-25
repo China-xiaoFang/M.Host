@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>M.Model</name>
+    </assembly>
+    <members>
+        <member name="T:M.Model.DefaultEntity">
+            <summary>
+            默认Entity类
+            </summary>
+        </member>
+        <member name="P:M.Model.DefaultEntity.IsDeleted">
+            <summary>
+            是否删除 0未删除 1已删除
+            </summary>
+        </member>
+        <member name="P:M.Model.DefaultEntity.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:M.Model.Entity.DevloveInfo">
+            <summary>
+            表白小工具信息类
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLId">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLName">
+            <summary>
+            你的名字
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLoveName">
+            <summary>
+            爱人的名字
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLInfo">
+            <summary>
+            想说的话
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLoveInfo">
+            <summary>
+            终极表白语
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLYear">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLMonth">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLDay">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfo.DLQQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
+        <member name="T:M.Model.Entity.EmailHistoryInfo">
+            <summary>
+            邮件历史信息类
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.EmailHistoryInfo.EHID">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.EmailHistoryInfo.RecipientId">
+            <summary>
+            收件人账号
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.EmailHistoryInfo.EmailBody">
+            <summary>
+            邮件内容
+            </summary>
+        </member>
+    </members>
+</doc>

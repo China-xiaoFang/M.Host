@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>M.Application</name>
+    </assembly>
+    <members>
+        <member name="T:M.Application.Devlove.DevloveInfoAppService">
+            <summary>
+            表白小工具信息服务
+            </summary>
+        </member>
+        <member name="M:M.Application.Devlove.DevloveInfoAppService.GetAllDevloveInfo">
+            <summary>
+            得到所有表白小工具信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.Devlove.DevloveInfoAppService.GetDevloveInfoByDLQQ(System.String)">
+            <summary>
+            根据QQ得到表白小工具信息
+            </summary>
+            <param name="dLQQ">QQ</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.Devlove.DevloveInfoAppService.CreateDevloveInfo(M.Model.Entity.DevloveInfo)">
+            <summary>
+            添加表白小工具信息
+            </summary>
+            <param name="devloveInfo">表白小工具信息类</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.Devlove.DevloveInfoAppService.UpdateDevloveInfo(M.Model.Entity.DevloveInfo)">
+            <summary>
+            修改表白小工具信息
+            </summary>
+            <param name="devloveInfo">表白小工具信息类</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.Devlove.DevloveInfoAppService.DeleteDevloveInfo(M.Model.Entity.DevloveInfo)">
+            <summary>
+            删除表白小工具信息
+            </summary>
+            <param name="devloveInfo">表白小工具信息类</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.Devlove.DevloveInfoAppService.RemoveDevloveInfo(M.Model.Entity.DevloveInfo)">
+            <summary>
+            彻底删除表白小工具信息
+            </summary>
+            <param name="devloveInfo">表白小工具信息类</param>
+            <returns></returns>
+        </member>
+        <member name="T:M.Application.Devlove.Dto.GetAllDevloveInfoResultDto">
+            <summary>
+            得到所有表白小工具信息
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.GetAllDevloveInfoResultDto.ResultListDto">
+            <summary>
+            返回结果集合
+            </summary>
+        </member>
+        <member name="P:M.Application.Devlove.Dto.GetAllDevloveInfoResultDto.Count">
+            <summary>
+            返回结果总数
+            </summary>
+        </member>
+        <member name="T:M.Application.EmailHistory.Dto.createEmailHistoryInfoDto">
+            <summary>
+            添加邮件历史信息类
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.createEmailHistoryInfoDto.RecipientId">
+            <summary>
+            收件人账号
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.createEmailHistoryInfoDto.EmailBody">
+            <summary>
+            邮件内容
+            </summary>
+        </member>
+        <member name="T:M.Application.EmailHistory.Dto.EmailHistoryInfoDto">
+            <summary>
+            邮件历史信息类
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.EmailHistoryInfoDto.EHID">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.EmailHistoryInfoDto.RecipientId">
+            <summary>
+            收件人账号
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.EmailHistoryInfoDto.EmailBody">
+            <summary>
+            邮件内容
+            </summary>
+        </member>
+        <member name="T:M.Application.EmailHistory.Dto.GetAllEmailHistoryResultDto">
+            <summary>
+            得到所有邮件历史信息返回结果
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.GetAllEmailHistoryResultDto.ResultListDto">
+            <summary>
+            返回结果集合
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.GetAllEmailHistoryResultDto.Count">
+            <summary>
+            返回结果总数
+            </summary>
+        </member>
+        <member name="T:M.Application.EmailHistory.Dto.GetLastEmailHistoryInfoByRecipientIdResultDto">
+            <summary>
+            根据收件人账号得到最后一个邮件历史信息返回结果
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.GetLastEmailHistoryInfoByRecipientIdResultDto.EmailHistoryInfo">
+            <summary>
+            邮件历史信息
+            </summary>
+        </member>
+        <member name="T:M.Application.EmailHistory.Dto.UpdateEmailHistoryInfoDto">
+            <summary>
+            修改邮件历史信息类
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.UpdateEmailHistoryInfoDto.EHID">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Application.EmailHistory.Dto.UpdateEmailHistoryInfoDto.EmailBody">
+            <summary>
+            邮件内容
+            </summary>
+        </member>
+        <member name="T:M.Application.EmailHistory.EmailHistoryInfoAppService">
+            <summary>
+            邮件历史信息服务
+            </summary>
+        </member>
+        <member name="M:M.Application.EmailHistory.EmailHistoryInfoAppService.GetAllEmailHistoryInfo">
+            <summary>
+            得到所有邮件历史信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.EmailHistory.EmailHistoryInfoAppService.GetAllEmailHistoryInfoByRecipientId(System.String)">
+            <summary>
+            根据收件人账号得到所有邮件历史信息
+            </summary>
+            <param name="recipientId">收件人账号</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.EmailHistory.EmailHistoryInfoAppService.GetLastEmailHistoryInfoByRecipientId(System.String)">
+            <summary>
+            根据收件人账号得到最后一个邮件历史信息
+            </summary>
+            <param name="recipientId">收件人账号</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.EmailHistory.EmailHistoryInfoAppService.CreateEmailHistoryInfo(M.Application.EmailHistory.Dto.createEmailHistoryInfoDto,System.Nullable{System.Boolean})">
+            <summary>
+            添加邮件历史信息
+            </summary>
+            <param name="createEmailHistoryInfoDto">添加邮件历史信息类</param>
+            <param name="isSendEmail">是否发送邮件，默认为发送</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.EmailHistory.EmailHistoryInfoAppService.UpdateEmailHistoryInfo(M.Application.EmailHistory.Dto.UpdateEmailHistoryInfoDto)">
+            <summary>
+            修改邮件历史信息
+            </summary>
+            <param name="updateEmailHistoryInfoDto">添修改件历史信息类</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.EmailHistory.EmailHistoryInfoAppService.DeleteEmailHistoryInfo(System.Int32)">
+            <summary>
+            删除邮件历史信息
+            </summary>
+            <param name="EHID">ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:M.Application.EmailHistory.EmailHistoryInfoAppService.RemoveEmailHistoryInfo(System.Int32)">
+            <summary>
+            彻底删除邮件历史信息
+            </summary>
+            <param name="EHID">ID</param>
+            <returns></returns>
+        </member>
+        <member name="T:M.Model.Entity.DevloveInfoDto">
+            <summary>
+            表白小工具信息类
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLId">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLName">
+            <summary>
+            你的名字
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLoveName">
+            <summary>
+            爱人的名字
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLInfo">
+            <summary>
+            想说的话
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLoveInfo">
+            <summary>
+            终极表白语
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLYear">
+            <summary>
+            年
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLMonth">
+            <summary>
+            月
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLDay">
+            <summary>
+            日
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.DevloveInfoDto.DLQQ">
+            <summary>
+            QQ
+            </summary>
+        </member>
+    </members>
+</doc>

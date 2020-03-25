@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>F:\Visual Studio Files\mchen.vip\M.Host\M.Host\M.Model.xml</DocumentationFile>
+    <OutputPath>F:\Visual Studio Files\mchen.vip\M.Host\M.Host\bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200319150933_Initial_Db.cs" />
+    <Compile Remove="Migrations\20200319150933_Initial_Db.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\M.Helper\M.Helper.csproj" />
+  </ItemGroup>
+
+</Project>
