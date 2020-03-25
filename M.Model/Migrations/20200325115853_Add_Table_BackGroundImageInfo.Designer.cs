@@ -4,14 +4,16 @@ using M.Model.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
     [DbContext(typeof(MChenVipDbContext))]
-    partial class MChenVipDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200325115853_Add_Table_BackGroundImageInfo")]
+    partial class Add_Table_BackGroundImageInfo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -585,76 +587,6 @@ namespace M.Model.Migrations
                         });
                 });
 
-            modelBuilder.Entity("M.Model.Entity.CopywritingInfo", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasMaxLength(200);
-
-                    b.Property<DateTime>("CreateTime");
-
-                    b.Property<int>("IsDeleted");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("CopywritingInfo");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Content = "当你的能力还撑不起你的野心的时，你就需要静下心来 好好学习。",
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(6043),
-                            IsDeleted = 0
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Content = "脏的人多了，干净反倒成了一种错。",
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(6774),
-                            IsDeleted = 0
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Content = "你羡慕的生活都是你没熬过的苦。",
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(6781),
-                            IsDeleted = 0
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Content = "所谓天才，只不过是把别人喝咖啡的功夫都用在了工作上了。",
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(6782),
-                            IsDeleted = 0
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Content = "生活便是寻求新的知识。——门捷列夫",
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(6782),
-                            IsDeleted = 0
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Content = "如果你浪费了自己的年龄，那是挺可悲的。因为你的青春只能持续一点儿时间——很短的一点儿时间。",
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(6783),
-                            IsDeleted = 0
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Content = "世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。",
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(6784),
-                            IsDeleted = 0
-                        });
-                });
-
             modelBuilder.Entity("M.Model.Entity.DevLoveInfo", b =>
                 {
                     b.Property<int>("DLId")
@@ -700,7 +632,7 @@ namespace M.Model.Migrations
                         new
                         {
                             DLId = 1,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 958, DateTimeKind.Local).AddTicks(1792),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 312, DateTimeKind.Local).AddTicks(9441),
                             DLDay = "6",
                             DLInfo = "希望以后和你的生活，温柔，有趣，不必太激烈，三餐，四季，不必太匆忙，毕竟我有一生的时间要和你浪费。",
                             DLMonth = "3",
@@ -762,7 +694,7 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 1,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(1680),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 313, DateTimeKind.Local).AddTicks(9345),
                             IsDeleted = 0,
                             MenuName = "首页",
                             MenuOrder = 1,
@@ -772,7 +704,7 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 2,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(3034),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 314, DateTimeKind.Local).AddTicks(758),
                             IsDeleted = 0,
                             MenuName = "Mr.Fang♥Mrs.Zhou",
                             MenuOrder = 2,
@@ -782,7 +714,7 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 3,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(3048),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 314, DateTimeKind.Local).AddTicks(771),
                             IsDeleted = 0,
                             MenuName = "QQ",
                             MenuOrder = 3,
@@ -792,7 +724,7 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 4,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(3049),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 314, DateTimeKind.Local).AddTicks(772),
                             IsDeleted = 0,
                             MenuName = "微信",
                             MenuOrder = 4,
@@ -802,7 +734,7 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 5,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(3050),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 314, DateTimeKind.Local).AddTicks(773),
                             IsDeleted = 0,
                             MenuName = "表白小工具",
                             MenuOrder = 5,
@@ -812,7 +744,7 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 6,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(3050),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 314, DateTimeKind.Local).AddTicks(773),
                             IsDeleted = 0,
                             MenuName = "实用小工具",
                             MenuOrder = 6,
@@ -822,7 +754,7 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 7,
-                            CreateTime = new DateTime(2020, 3, 25, 20, 11, 43, 959, DateTimeKind.Local).AddTicks(3051),
+                            CreateTime = new DateTime(2020, 3, 25, 19, 58, 53, 314, DateTimeKind.Local).AddTicks(774),
                             IsDeleted = 0,
                             MenuName = "休闲小游戏",
                             MenuOrder = 7,

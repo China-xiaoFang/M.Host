@@ -19,6 +19,56 @@
             创建时间
             </summary>
         </member>
+        <member name="T:M.Model.Entity.AccessHistoryLog">
+            <summary>
+            访问历史信息类
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.AccessHistoryLog.AHId">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.AccessHistoryLog.DeviceInfo">
+            <summary>
+            设备信息
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.AccessHistoryLog.Url">
+            <summary>
+            访问Url
+            </summary>
+        </member>
+        <member name="T:M.Model.Entity.BackGroundImageInfo">
+            <summary>
+            背景图片信息类
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.BackGroundImageInfo.BGId">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.BackGroundImageInfo.BGUrl">
+            <summary>
+            BGUrl
+            </summary>
+        </member>
+        <member name="T:M.Model.Entity.CopywritingInfo">
+            <summary>
+            文案信息类
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.CopywritingInfo.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.CopywritingInfo.Content">
+            <summary>
+            文案内容
+            </summary>
+        </member>
         <member name="T:M.Model.Entity.DevLoveInfo">
             <summary>
             表白小工具信息类

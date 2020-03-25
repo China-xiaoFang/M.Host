@@ -38,7 +38,6 @@ namespace M.Model.Db
                 });
 
             modelBuilder.Entity<GuidePagesMenuInfo>().HasData(
-                // 首页 方方 QQ 微信 表白 工具 游戏
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 1,
@@ -88,6 +87,53 @@ namespace M.Model.Db
                     MenuUrl = "http://game.mchen.vip",
                     MenuOrder = 7
                 });
+
+            for (int i = 1; i <= 100; i++)
+            {
+                modelBuilder.Entity<BackGroundImageInfo>().HasData(
+                new BackGroundImageInfo()
+                {
+                    BGId = i,
+                    BGUrl = "http://mchen.vip/accsets/images/background/bg" + i
+                });
+            }
+
+            modelBuilder.Entity<CopywritingInfo>().HasData(
+                new CopywritingInfo()
+                {
+                    Id = 1,
+                    Content = "当你的能力还撑不起你的野心的时，你就需要静下心来 好好学习。"
+                },
+                new CopywritingInfo()
+                {
+                    Id = 2,
+                    Content = "脏的人多了，干净反倒成了一种错。"
+                },
+                new CopywritingInfo()
+                {
+                    Id = 3,
+                    Content = "你羡慕的生活都是你没熬过的苦。"
+                },
+                new CopywritingInfo()
+                {
+                    Id = 4,
+                    Content = "所谓天才，只不过是把别人喝咖啡的功夫都用在了工作上了。"
+                },
+                new CopywritingInfo()
+                {
+                    Id = 5,
+                    Content = "生活便是寻求新的知识。——门捷列夫"
+                },
+                new CopywritingInfo()
+                {
+                    Id = 6,
+                    Content = "如果你浪费了自己的年龄，那是挺可悲的。因为你的青春只能持续一点儿时间——很短的一点儿时间。"
+                },
+                new CopywritingInfo()
+                {
+                    Id = 7,
+                    Content = "世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。"
+                });
         }
 
         public DbSet<Admin> Admin { get; set; }
@@ -97,5 +143,11 @@ namespace M.Model.Db
         public DbSet<EmailHistoryInfo> EmailHistoryInfo { get; set; }
 
         public DbSet<GuidePagesMenuInfo> GuidePagesMenuInfo { get; set; }
+
+        public DbSet<AccessHistoryLog> AccessHistoryLog { get; set; }
+
+        public DbSet<BackGroundImageInfo> BackGroundImageInfo { get; set; }
+
+        public DbSet<CopywritingInfo> CopywritingInfo { get; set; }
     }
 }
