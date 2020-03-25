@@ -11,6 +11,36 @@ namespace M.Helper.Model
         /// <summary>
         /// 模型赋值（复制）
         /// </summary>
+        /// <typeparam name="T">目标类型</typeparam>
+        /// <typeparam name="V">数据源类型</typeparam>
+        /// <param name="source">数据源</param>
+        /// <returns></returns>
+        public static T CopyModel<T, V>(V source)
+        {
+            T t = Activator.CreateInstance<T>();
+            try
+            {
+                Type targetType = typeof(T);
+                Type sourceType = typeof(V);
+                foreach (var key in sourceType.GetProperties())
+                {
+                    var des = targetType.GetProperty(key.Name);
+                    if (des != null)
+                    {
+                        des.SetValue(t, key.GetValue(source, null), null);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+            return t;
+        }
+
+        /// <summary>
+        /// 模型赋值（复制）
+        /// </summary>
         /// <param name="target">目标</param>
         /// <param name="source">数据源</param>
         public static void CopyModel<T, V>(T target, V source)
