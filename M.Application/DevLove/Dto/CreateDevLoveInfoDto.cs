@@ -1,21 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Text;
 
 namespace M.Application.DevLove.Dto
 {
     /// <summary>
-    /// 表白小工具信息类
+    /// 添加表白小工具信息类
     /// </summary>
-    public class DevLoveInfoDto
+    public class CreateDevLoveInfoDto
     {
-        /// <summary>
-        /// Id
-        /// </summary>
-        [Key]
-        [Required]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int DLId { get; set; }
-
         /// <summary>
         /// 你的名字
         /// </summary>

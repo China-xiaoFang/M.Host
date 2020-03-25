@@ -1,18 +1,17 @@
 ﻿using M.Helper.Model;
-using M.Model.Entity;
 using System.Collections.Generic;
 
-namespace M.Application.Devlove.Dto
+namespace M.Application.DevLove.Dto
 {
     /// <summary>
     /// 得到所有表白小工具信息
     /// </summary>
-    public class GetAllDevloveInfoResultDto : ResultDto
+    public class GetAllDevLoveInfoResultDto : ResultDto
     {
         /// <summary>
         /// 返回结果集合
         /// </summary>
-        public List<DevloveInfo> ResultListDto { get; set; }
+        public List<DevLoveInfoDto> ResultListDto { get; set; }
 
         /// <summary>
         /// 返回结果总数
