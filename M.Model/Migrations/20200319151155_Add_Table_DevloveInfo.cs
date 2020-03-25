@@ -4,12 +4,12 @@ using System;
 
 namespace M.Model.Migrations
 {
-    public partial class Add_Table_DevloveInfo : Migration
+    public partial class Add_Table_DevLoveInfo : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "DevloveInfo",
+                name: "DevLoveInfo",
                 columns: table => new
                 {
                     DLId = table.Column<int>(nullable: false)
@@ -27,11 +27,11 @@ namespace M.Model.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DevloveInfo", x => x.DLId);
+                    table.PrimaryKey("PK_DevLoveInfo", x => x.DLId);
                 });
 
             migrationBuilder.InsertData(
-                table: "DevloveInfo",
+                table: "DevLoveInfo",
                 columns: new[] { "DLId", "CreateTime", "DLDay", "DLInfo", "DLMonth", "DLName", "DLQQ", "DLYear", "DLoveInfo", "DLoveName", "IsDeleted" },
                 values: new object[] { 1, new DateTime(2020, 3, 19, 23, 11, 55, 572, DateTimeKind.Local).AddTicks(1076), "6", "希望以后和你的生活，温柔，有趣，不必太激烈，三餐，四季，不必太匆忙，毕竟我有一生的时间要和你浪费。", "3", "Mr.Fang", "2875616188", "2017", "我永远在！", "文洁", 0 });
         }
@@ -39,7 +39,7 @@ namespace M.Model.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "DevloveInfo");
+                name: "DevLoveInfo");
         }
     }
 }

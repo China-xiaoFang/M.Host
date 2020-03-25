@@ -19,52 +19,52 @@
             创建时间
             </summary>
         </member>
-        <member name="T:M.Model.Entity.DevloveInfo">
+        <member name="T:M.Model.Entity.DevLoveInfo">
             <summary>
             表白小工具信息类
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLId">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLId">
             <summary>
             Id
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLName">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLName">
             <summary>
             你的名字
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLoveName">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLoveName">
             <summary>
             爱人的名字
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLInfo">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLInfo">
             <summary>
             想说的话
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLoveInfo">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLoveInfo">
             <summary>
             终极表白语
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLYear">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLYear">
             <summary>
             年
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLMonth">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLMonth">
             <summary>
             月
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLDay">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLDay">
             <summary>
             日
             </summary>
         </member>
-        <member name="P:M.Model.Entity.DevloveInfo.DLQQ">
+        <member name="P:M.Model.Entity.DevLoveInfo.DLQQ">
             <summary>
             QQ
             </summary>

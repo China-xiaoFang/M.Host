@@ -25,7 +25,7 @@ namespace M.Model.Migrations
                 });
 
             migrationBuilder.UpdateData(
-                table: "DevloveInfo",
+                table: "DevLoveInfo",
                 keyColumn: "DLId",
                 keyValue: 1,
                 column: "CreateTime",
@@ -38,7 +38,7 @@ namespace M.Model.Migrations
                 name: "EmailHistoryInfo");
 
             migrationBuilder.UpdateData(
-                table: "DevloveInfo",
+                table: "DevLoveInfo",
                 keyColumn: "DLId",
                 keyValue: 1,
                 column: "CreateTime",

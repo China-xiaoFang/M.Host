@@ -23,8 +23,8 @@ namespace M.Model.Db
                 new Admin { Id = 1, AdminName = "admin", AdminPwd = "123456" },
                 new Admin { Id = 2, AdminName = "fangfang", AdminPwd = "Fh2269..." });
 
-            modelBuilder.Entity<DevloveInfo>().HasData(
-                new DevloveInfo
+            modelBuilder.Entity<DevLoveInfo>().HasData(
+                new DevLoveInfo
                 {
                     DLId = 1,
                     DLName = "Mr.Fang",
@@ -40,7 +40,7 @@ namespace M.Model.Db
 
         public DbSet<Admin> Admin { get; set; }
 
-        public DbSet<DevloveInfo> DevloveInfo { get; set; }
+        public DbSet<DevLoveInfo> DevLoveInfo { get; set; }
 
         public DbSet<EmailHistoryInfo> EmailHistoryInfo { get; set; }
     }

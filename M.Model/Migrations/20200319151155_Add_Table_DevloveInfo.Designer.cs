@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace M.Model.Migrations
 {
     [DbContext(typeof(MChenVipDbContext))]
-    [Migration("20200319151155_Add_Table_DevloveInfo")]
-    partial class Add_Table_DevloveInfo
+    [Migration("20200319151155_Add_Table_DevLoveInfo")]
+    partial class Add_Table_DevLoveInfo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -50,7 +50,7 @@ namespace M.Model.Migrations
                         });
                 });
 
-            modelBuilder.Entity("M.Model.Entity.DevloveInfo", b =>
+            modelBuilder.Entity("M.Model.Entity.DevLoveInfo", b =>
                 {
                     b.Property<int>("DLId")
                         .ValueGeneratedOnAdd()
@@ -89,7 +89,7 @@ namespace M.Model.Migrations
 
                     b.HasKey("DLId");
 
-                    b.ToTable("DevloveInfo");
+                    b.ToTable("DevLoveInfo");
 
                     b.HasData(
                         new

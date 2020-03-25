@@ -50,7 +50,7 @@ namespace M.Model.Migrations
                         });
                 });
 
-            modelBuilder.Entity("M.Model.Entity.DevloveInfo", b =>
+            modelBuilder.Entity("M.Model.Entity.DevLoveInfo", b =>
                 {
                     b.Property<int>("DLId")
                         .ValueGeneratedOnAdd()
@@ -89,7 +89,7 @@ namespace M.Model.Migrations
 
                     b.HasKey("DLId");
 
-                    b.ToTable("DevloveInfo");
+                    b.ToTable("DevLoveInfo");
 
                     b.HasData(
                         new

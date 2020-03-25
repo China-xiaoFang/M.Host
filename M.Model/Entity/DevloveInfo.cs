@@ -6,7 +6,7 @@ namespace M.Model.Entity
     /// <summary>
     /// 表白小工具信息类
     /// </summary>
-    public class DevloveInfo : DefaultEntity
+    public class DevLoveInfo : DefaultEntity
     {
         /// <summary>
         /// Id
