@@ -89,5 +89,35 @@
             邮件内容
             </summary>
         </member>
+        <member name="T:M.Model.Entity.GuidePagesMenuInfo">
+            <summary>
+            引导页菜单信息
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.GuidePagesMenuInfo.MenuID">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.GuidePagesMenuInfo.MenuName">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.GuidePagesMenuInfo.MenuUrl">
+            <summary>
+            菜单Url
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.GuidePagesMenuInfo.ParentId">
+            <summary>
+            父级菜单Id
+            </summary>
+        </member>
+        <member name="P:M.Model.Entity.GuidePagesMenuInfo.MenuOrder">
+            <summary>
+            菜单排序
+            </summary>
+        </member>
     </members>
 </doc>

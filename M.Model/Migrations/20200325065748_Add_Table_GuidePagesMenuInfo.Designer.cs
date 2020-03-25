@@ -4,14 +4,16 @@ using M.Model.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
     [DbContext(typeof(MChenVipDbContext))]
-    partial class MChenVipDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200325065748_Add_Table_GuidePagesMenuInfo")]
+    partial class Add_Table_GuidePagesMenuInfo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

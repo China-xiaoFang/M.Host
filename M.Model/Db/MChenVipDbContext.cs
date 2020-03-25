@@ -36,6 +36,58 @@ namespace M.Model.Db
                     DLDay = "6",
                     DLQQ = "2875616188"
                 });
+
+            modelBuilder.Entity<GuidePagesMenuInfo>().HasData(
+                // 首页 方方 QQ 微信 表白 工具 游戏
+                new GuidePagesMenuInfo()
+                {
+                    MenuID = 1,
+                    MenuName = "首页",
+                    MenuUrl = "http://home.mchen.vip",
+                    MenuOrder = 1
+                },
+                new GuidePagesMenuInfo()
+                {
+                    MenuID = 2,
+                    MenuName = "Mr.Fang♥Mrs.Zhou",
+                    MenuUrl = "http://fh.mchen.vip",
+                    MenuOrder = 2
+                },
+                new GuidePagesMenuInfo()
+                {
+                    MenuID = 3,
+                    MenuName = "QQ",
+                    MenuUrl = "https://wpa.qq.com/msgrd?v=3&uin=2875616188&site=qq&menu=yes",
+                    MenuOrder = 3
+                },
+                new GuidePagesMenuInfo()
+                {
+                    MenuID = 4,
+                    MenuName = "微信",
+                    MenuUrl = "http://mchen.vip/accsets/images/weixin.jpg",
+                    MenuOrder = 4
+                },
+                new GuidePagesMenuInfo()
+                {
+                    MenuID = 5,
+                    MenuName = "表白小工具",
+                    MenuUrl = "http://devlove.mchen.vip",
+                    MenuOrder = 5
+                },
+                new GuidePagesMenuInfo()
+                {
+                    MenuID = 6,
+                    MenuName = "实用小工具",
+                    MenuUrl = "http://tool.mchen.vip",
+                    MenuOrder = 6
+                },
+                new GuidePagesMenuInfo()
+                {
+                    MenuID = 7,
+                    MenuName = "休闲小游戏",
+                    MenuUrl = "http://game.mchen.vip",
+                    MenuOrder = 7
+                });
         }
 
         public DbSet<Admin> Admin { get; set; }
@@ -43,5 +95,7 @@ namespace M.Model.Db
         public DbSet<DevLoveInfo> DevLoveInfo { get; set; }
 
         public DbSet<EmailHistoryInfo> EmailHistoryInfo { get; set; }
+
+        public DbSet<GuidePagesMenuInfo> GuidePagesMenuInfo { get; set; }
     }
 }
