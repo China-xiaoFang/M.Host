@@ -1,5 +1,4 @@
 ﻿using M.Helper.Model;
-using M.Model.Entity;
 using System.Collections.Generic;
 
 namespace M.Application.EmailHistory.Dto
