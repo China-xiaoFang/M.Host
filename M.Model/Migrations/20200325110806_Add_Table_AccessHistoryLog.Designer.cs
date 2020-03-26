@@ -67,7 +67,7 @@ namespace M.Model.Migrations
                         new
                         {
                             Id = 2,
-                            AdminName = "fangfang",
+                            AdminName = "Mr.Fang",
                             AdminPwd = "Fh2269..."
                         });
                 });

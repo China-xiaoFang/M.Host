@@ -29,7 +29,7 @@ namespace M.Model.Migrations
             migrationBuilder.InsertData(
                 table: "Admin",
                 columns: new[] { "Id", "AdminName", "AdminPwd" },
-                values: new object[] { 2, "fangfang", "Fh2269..." });
+                values: new object[] { 2, "Mr.Fang", "Fh2269..." });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

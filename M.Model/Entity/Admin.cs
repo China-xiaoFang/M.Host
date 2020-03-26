@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace M.Model.Entity
 {
-    public class Admin
+    public class Admin : DefaultEntity
     {
         [Key]
         [Required]

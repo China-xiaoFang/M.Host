@@ -21,7 +21,7 @@ namespace M.Model.Db
         {
             modelBuilder.Entity<Admin>().HasData(
                 new Admin { Id = 1, AdminName = "admin", AdminPwd = "123456" },
-                new Admin { Id = 2, AdminName = "fangfang", AdminPwd = "Fh2269..." });
+                new Admin { Id = 2, AdminName = "Mr.Fang", AdminPwd = "Fh2269..." });
 
             modelBuilder.Entity<DevLoveInfo>().HasData(
                 new DevLoveInfo

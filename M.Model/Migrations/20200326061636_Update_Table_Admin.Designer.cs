@@ -4,14 +4,16 @@ using M.Model.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
     [DbContext(typeof(MChenVipDbContext))]
-    partial class MChenVipDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200326061636_Update_Table_Admin")]
+    partial class Update_Table_Admin
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
