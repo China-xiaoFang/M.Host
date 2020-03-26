@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace M.Model.Entity
 {
     /// <summary>
     /// 背景图片信息类
     /// </summary>
-    public class BackGroundImageInfo
+    public class BackGroundImageInfo : DefaultEntity
     {
         // id Url
         /// <summary>

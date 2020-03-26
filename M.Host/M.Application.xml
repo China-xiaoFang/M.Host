@@ -4,6 +4,39 @@
         <name>M.Application</name>
     </assembly>
     <members>
+        <member name="T:M.Application.AccessHistory.AccessHistoryLogAppService">
+            <summary>
+            访问日志服务
+            </summary>
+        </member>
+        <member name="M:M.Application.AccessHistory.AccessHistoryLogAppService.CreateAccessHistoryLog(M.Model.Entity.AccessHistoryLog)">
+            <summary>
+            添加访问日志
+            </summary>
+            <param name="accessHistoryLog"></param>
+        </member>
+        <member name="T:M.Application.BackGroundImage.BackGroundImageInfoAppService">
+            <summary>
+            背景图片服务
+            </summary>
+        </member>
+        <member name="M:M.Application.BackGroundImage.BackGroundImageInfoAppService.GetAllBackGroundImageInfo">
+            <summary>
+            得到所有背景图片信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:M.Application.Copywriting.CopywritingInfoAppService">
+            <summary>
+            文案服务
+            </summary>
+        </member>
+        <member name="M:M.Application.Copywriting.CopywritingInfoAppService.GetAllCopywritingInfo">
+            <summary>
+            得到所有文案
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:M.Application.DevLove.DevLoveInfoAppService">
             <summary>
             表白小工具信息服务
@@ -337,6 +370,17 @@
             彻底删除邮件历史信息
             </summary>
             <param name="EHID">ID</param>
+            <returns></returns>
+        </member>
+        <member name="T:M.Application.GuidePagesMenu.GuidePagesMenuInfoAppService">
+            <summary>
+            引导页菜单服务
+            </summary>
+        </member>
+        <member name="M:M.Application.GuidePagesMenu.GuidePagesMenuInfoAppService.GetAllGuidePagesMenuInfo">
+            <summary>
+            得到所有菜单信息
+            </summary>
             <returns></returns>
         </member>
         <member name="T:M.Application.JWT.JWTAppServicec">

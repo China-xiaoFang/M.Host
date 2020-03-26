@@ -20,6 +20,7 @@ namespace M.Host
 
                 .CaptureStartupErrors(true)
                 .UseStartup<Startup>();
+
         //.UseStartup<Startup>();
     }
 }

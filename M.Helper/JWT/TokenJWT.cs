@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace M.Helper.JWT
+﻿namespace M.Helper.JWT
 {
     public class TokenJWT
     {

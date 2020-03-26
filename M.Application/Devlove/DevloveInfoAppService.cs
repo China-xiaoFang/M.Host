@@ -2,8 +2,6 @@
 using M.Helper.Model;
 using M.Model.Db;
 using M.Model.Entity;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;

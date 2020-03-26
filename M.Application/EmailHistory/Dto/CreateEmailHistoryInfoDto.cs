@@ -1,5 +1,4 @@
-﻿
-namespace M.Application.EmailHistory.Dto
+﻿namespace M.Application.EmailHistory.Dto
 {
     /// <summary>
     /// 添加邮件历史信息类

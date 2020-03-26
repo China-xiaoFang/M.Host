@@ -42,6 +42,7 @@ namespace M.Helper.String
         }
 
         #region 以淘汰
+
         /// <summary>
         /// 把中文字符串转换为Unicode串
         /// </summary>
@@ -152,6 +153,7 @@ namespace M.Helper.String
             }
             return (char)n;
         }
-        #endregion
+
+        #endregion 以淘汰
     }
 }

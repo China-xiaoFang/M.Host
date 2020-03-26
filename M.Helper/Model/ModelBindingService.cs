@@ -33,7 +33,6 @@ namespace M.Helper.Model
             }
             catch (Exception)
             {
-
             }
             return t;
         }
@@ -60,7 +59,6 @@ namespace M.Helper.Model
             }
             catch (Exception)
             {
-
             }
         }
 
@@ -96,7 +94,6 @@ namespace M.Helper.Model
             }
             catch (Exception)
             {
-
             }
             return result;
         }
@@ -132,10 +129,7 @@ namespace M.Helper.Model
             }
             catch (Exception)
             {
-
             }
         }
-
-
     }
 }

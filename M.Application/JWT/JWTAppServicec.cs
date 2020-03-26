@@ -1,17 +1,11 @@
-﻿using M.Application.Admin;
-using M.Application.JWT.Dto;
+﻿using M.Application.JWT.Dto;
 using M.Helper.AppConfigurtaion;
 using M.Helper.Http;
 using M.Helper.JWT;
-using M.Helper.Model;
 using M.Helper.Swagger;
-using M.Model.Entity;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace M.Application.JWT
