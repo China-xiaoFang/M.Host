@@ -1,6 +1,7 @@
 ﻿using M.Helper.AppConfigurtaion;
 using M.Helper.Http;
 using M.Helper.Middleware;
+using M.Helper.Swagger;
 using M.Model;
 using M.Model.Db;
 using Microsoft.AspNetCore.Builder;
@@ -71,6 +72,10 @@ namespace M.Host
                 c.IncludeXmlComments(entityXmlPath);
                 // 添加HttpHeader参数
                 c.OperationFilter<HttpHeaderOperation>();
+                // 隐藏
+                c.DocumentFilter<HiddenApiFilter>();
+                // Token
+                // c.OperationFilter<HttpHeaderOperationFilter>();
             });
 
             #endregion 注册Swagger生成器
@@ -116,8 +121,6 @@ namespace M.Host
 
             app.UseHttpsRedirection();
             app.UseMvc();
-
-
 
             #region Swagger
 
