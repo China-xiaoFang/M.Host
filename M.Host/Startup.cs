@@ -1,5 +1,4 @@
-﻿using M.Helper.AppConfigurtaion;
-using M.Helper.Http;
+﻿using M.Helper.Http;
 using M.Helper.Middleware;
 using M.Helper.Swagger;
 using M.Model;
@@ -10,8 +9,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using Swashbuckle.AspNetCore.Swagger;
+using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace M.Host
 {
@@ -32,8 +35,8 @@ namespace M.Host
             Configuration = configuration;
 
             // 设置版本号和项目名称
-            Version = AppConfigurtaionService.Configuration["ProjectInfo:Version"];
-            Project_Name = AppConfigurtaionService.Configuration["ProjectInfo:Project_Name"];
+            Version = Configuration["ProjectInfo:Version"];
+            Project_Name = Configuration["ProjectInfo:Project_Name"];
         }
 
         public IConfiguration Configuration { get; }
@@ -42,6 +45,45 @@ namespace M.Host
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            #region JWT
+
+            var signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["Audience:Secret"]));
+            services.AddAuthentication("Bearer").AddJwtBearer(o =>
+            {
+                o.TokenValidationParameters = new TokenValidationParameters
+                {
+                    // 是否开启密钥认证和key值
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = signingKey,
+
+                    // 是否开启发行人认证和发行人
+                    ValidateIssuer = true,
+                    ValidIssuer = Configuration["Audience:Issuer"],
+
+                    // 是否开启订阅人认证和订阅人
+                    ValidateAudience = true,
+                    ValidAudience = Configuration["Audience:Audience"],
+
+                    // 认证时间的偏移量
+                    ClockSkew = TimeSpan.Zero,
+                    //是否开启时间认证
+                    ValidateLifetime = true,
+                    // 是否该令牌必须带有过期时间
+                    RequireExpirationTime = true
+                };
+            });
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Mr.Fang", policy => policy.RequireRole("Mr.Fang").Build());
+                options.AddPolicy("Admin", policy => policy.RequireRole("Admin").Build());
+                options.AddPolicy("SystemOrAdmin", policy => policy.RequireRole("Admin", "System"));
+            });
+
+            #endregion JWT
+
+            // 注册DB为服务
+            services.AddDbContext<MChenVipDbContext>();
 
             #region 注册Swagger生成器
 
@@ -76,27 +118,42 @@ namespace M.Host
                 c.DocumentFilter<HiddenApiFilter>();
                 // Token
                 // c.OperationFilter<HttpHeaderOperationFilter>();
+
+                #region Token
+
+                //添加header验证信息
+                //c.OperationFilter<SwaggerHeader>();
+                var security = new Dictionary<string, IEnumerable<string>> { { "Mr.FangAPI", new string[] { } }, };
+                c.AddSecurityRequirement(security);
+                //方案名称“Blog.Core”可自定义，上下一致即可
+                c.AddSecurityDefinition("Mr.FangAPI", new ApiKeyScheme
+                {
+                    Description = "JWT授权(数据将在请求头中进行传输) 直接在下框中输入Bearer {token}（注意两者之间是一个空格）",
+                    Name = "Authorization",//jwt默认的参数名称
+                    In = "header",//jwt默认存放Authorization信息的位置(请求头中)
+                    Type = "apiKey"
+                });
+
+                #endregion Token
             });
 
             #endregion 注册Swagger生成器
 
-            // 注册DB为服务
-            services.AddDbContext<MChenVipDbContext>();
-
             // 配置跨域
-            services.AddCors(corsOption =>
-            {
-                corsOption.AddPolicy("CustomCorsPolicy",
-                    CorsPolicyBuilder =>
-                    {
-                        // 配置允许那些地方可以请求
-                        CorsPolicyBuilder.WithOrigins(AppConfigurtaionService.Configuration["AllowedHosts:Url"])
-                            .AllowAnyOrigin() // 允许任何主机请求
-                            .AllowAnyMethod() // 允许任何请求方式
-                            .AllowAnyHeader() // 允许任何请求头
-                            .AllowCredentials(); //指定处理cookie
-                    });
-            });
+            // 取消注释appsetting.json中的配置
+            //services.AddCors(corsOption =>
+            //{
+            //    corsOption.AddPolicy("CustomCorsPolicy",
+            //        CorsPolicyBuilder =>
+            //        {
+            //            // 配置允许那些地方可以请求
+            //            CorsPolicyBuilder.WithOrigins(Configuration["AllowedHosts:Url"])
+            //                .AllowAnyOrigin() // 允许任何主机请求
+            //                .AllowAnyMethod() // 允许任何请求方式
+            //                .AllowAnyHeader() // 允许任何请求头
+            //                .AllowCredentials(); //指定处理cookie
+            //        });
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -120,6 +177,10 @@ namespace M.Host
             app.UseMiddleware(typeof(ExceptionHandlerMiddleware));
 
             app.UseHttpsRedirection();
+
+            // JWT
+            app.UseAuthentication();
+
             app.UseMvc();
 
             #region Swagger
@@ -130,12 +191,14 @@ namespace M.Host
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint($"/swagger/{Version}/swagger.json", "默认接口文档");
+                // 路径配置，设置为空，表示直接访问该文件
+                c.RoutePrefix = "";
             });
 
             #endregion Swagger
 
             // 开启跨域
-            app.UseCors("CustomCorsPolicy");
+            //app.UseCors("CustomCorsPolicy");
         }
     }
 }

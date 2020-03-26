@@ -4,6 +4,7 @@ using M.Helper.Email;
 using M.Helper.Model;
 using M.Model.Db;
 using M.Model.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +20,9 @@ namespace M.Application.EmailHistory
     /// </summary>
     [Route("api/EmailHistoryInfo")]
     [ApiController]
-    [EnableCors("CustomCorsPolicy")]
+    //[EnableCors("CustomCorsPolicy")]
+    //[Authorize(Roles = "Mr.Fang")]
+    //[Authorize(policy: "Mr.Fang")]
     public class EmailHistoryInfoAppService
     {
         // HttpGet 查询  HttpPost 新增  HttpPut 修改  HttpDelete 删除

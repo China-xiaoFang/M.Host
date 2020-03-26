@@ -66,10 +66,10 @@ namespace M.Helper.BaiduTranslator
             var resultString = await HttpRequestService.HttpGetAsync(Url + "?" + parameter);
             StringBuilder resultStringBuilder = new StringBuilder();
             // 去除转义字符
-            foreach (char c in resultString)
-            {
-                if (c != '\\') resultStringBuilder.Append(c);
-            }
+            //foreach (char c in resultString)
+            //{
+            //    if (c != '\\') resultStringBuilder.Append(c);
+            //}
             // 返回字符串转换为JSON对象
             return JsonConvert.DeserializeObject<BaiduTranslatorResultDto>(resultString);
         }

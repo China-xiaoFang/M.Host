@@ -339,5 +339,18 @@
             <param name="EHID">ID</param>
             <returns></returns>
         </member>
+        <member name="T:M.Application.JWT.JWTAppServicec">
+            <summary>
+            Token服务
+            </summary>
+        </member>
+        <member name="M:M.Application.JWT.JWTAppServicec.GetToken(System.String,System.String)">
+            <summary>
+            得到Token
+            </summary>
+            <param name="adminName"></param>
+            <param name="adminPwd"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>
