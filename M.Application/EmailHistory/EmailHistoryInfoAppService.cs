@@ -4,6 +4,7 @@ using M.Helper.Email;
 using M.Helper.Model;
 using M.Model.Db;
 using M.Model.Entity;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -18,6 +19,7 @@ namespace M.Application.EmailHistory
     /// </summary>
     [Route("api/EmailHistoryInfo")]
     [ApiController]
+    [EnableCors("CustomCorsPolicy")]
     //[EnableCors("CustomCorsPolicy")]
     //[Authorize(Roles = "Mr.Fang")]
     //[Authorize(policy: "Mr.Fang")]

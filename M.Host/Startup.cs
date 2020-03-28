@@ -139,20 +139,16 @@ namespace M.Host
             #endregion 注册Swagger生成器
 
             // 配置跨域
-            // 取消注释appsetting.json中的配置
-            //services.AddCors(corsOption =>
-            //{
-            //    corsOption.AddPolicy("CustomCorsPolicy",
-            //        CorsPolicyBuilder =>
-            //        {
-            //            // 配置允许那些地方可以请求
-            //            CorsPolicyBuilder.WithOrigins(Configuration["AllowedHosts:Url"])
-            //                .AllowAnyOrigin() // 允许任何主机请求
-            //                .AllowAnyMethod() // 允许任何请求方式
-            //                .AllowAnyHeader() // 允许任何请求头
-            //                .AllowCredentials(); //指定处理cookie
-            //        });
-            //});
+            services.AddCors(corsOption =>
+            {
+                corsOption.AddPolicy("CustomCorsPolicy",
+                    CorsPolicyBuilder => CorsPolicyBuilder
+                    .AllowAnyOrigin() // 允许任何主机请求
+                    .AllowAnyMethod() // 允许任何请求方式
+                    .AllowAnyHeader() // 允许任何请求头
+                    // .AllowCredentials() //指定处理cookie
+                    );
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -180,6 +176,9 @@ namespace M.Host
             // JWT
             app.UseAuthentication();
 
+            // 开启跨域
+            app.UseCors("CustomCorsPolicy");
+
             app.UseMvc();
 
             #region Swagger
@@ -195,9 +194,6 @@ namespace M.Host
             });
 
             #endregion Swagger
-
-            // 开启跨域
-            //app.UseCors("CustomCorsPolicy");
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using M.Model.Db;
 using M.Model.Entity;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace M.Application.Copywriting
     /// </summary>
     [Route("api/CopywritingInfoAppService")]
     [ApiController]
+    [EnableCors("CustomCorsPolicy")]
     public class CopywritingInfoAppService
     {
         private readonly MChenVipDbContext _context;

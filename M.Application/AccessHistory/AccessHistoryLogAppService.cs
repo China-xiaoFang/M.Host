@@ -1,6 +1,7 @@
 ﻿using M.Helper.Model;
 using M.Model.Db;
 using M.Model.Entity;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -11,6 +12,7 @@ namespace M.Application.AccessHistory
     /// </summary>
     [Route("api/AccessHistoryLogAppService")]
     [ApiController]
+    [EnableCors("CustomCorsPolicy")]
     //[HiddenApi]
     public class AccessHistoryLogAppService
     {

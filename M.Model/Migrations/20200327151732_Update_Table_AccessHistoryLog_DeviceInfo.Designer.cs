@@ -4,14 +4,16 @@ using M.Model.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
     [DbContext(typeof(MChenVipDbContext))]
-    partial class MChenVipDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200327151732_Update_Table_AccessHistoryLog_DeviceInfo")]
+    partial class Update_Table_AccessHistoryLog_DeviceInfo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

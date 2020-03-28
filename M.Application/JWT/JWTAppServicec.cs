@@ -3,6 +3,7 @@ using M.Helper.AppConfigurtaion;
 using M.Helper.Http;
 using M.Helper.JWT;
 using M.Helper.Swagger;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
@@ -15,6 +16,7 @@ namespace M.Application.JWT
     /// </summary>
     [Route("api/JWTAppServicec")]
     [ApiController]
+    [EnableCors("CustomCorsPolicy")]
     [HiddenApi]
     public class JWTAppServicec
     {

@@ -2,6 +2,7 @@
 using M.Helper.Model;
 using M.Model.Db;
 using M.Model.Entity;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,7 +16,7 @@ namespace M.Application.DevLove
     /// </summary>
     [Route("api/DevLoveInfo")]
     [ApiController]
-    //[EnableCors("CustomCorsPolicy")]
+    [EnableCors("CustomCorsPolicy")]
     //[Authorize(Roles = "Mr.Fang")]
     //[Authorize(policy: "Admin")]
     public class DevLoveInfoAppService

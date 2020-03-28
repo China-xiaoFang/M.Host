@@ -1,5 +1,6 @@
 ﻿using M.Helper.Swagger;
 using M.Model.Db;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,6 +10,7 @@ namespace M.Application.Admin
 {
     [Route("api/Admin")]
     [ApiController]
+    [EnableCors("CustomCorsPolicy")]
     [HiddenApi]
     public class AdminAppService
     {

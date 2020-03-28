@@ -20,7 +20,6 @@ namespace M.Model.Entity
         /// 设备信息
         /// </summary>
         [Required]
-        [MaxLength(200)]
         public string DeviceInfo { get; set; }
 
         /// <summary>
