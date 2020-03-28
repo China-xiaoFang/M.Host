@@ -4,14 +4,16 @@ using M.Model.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
     [DbContext(typeof(MChenVipDbContext))]
-    partial class MChenVipDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200328092314_Update_Table_BackGroundImageInfo_DB")]
+    partial class Update_Table_BackGroundImageInfo_DB
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,7 +66,7 @@ namespace M.Model.Migrations
                             Id = 1,
                             AdminName = "admin",
                             AdminPwd = "123456",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 848, DateTimeKind.Local).AddTicks(7015),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 84, DateTimeKind.Local).AddTicks(3755),
                             IsDeleted = 0
                         },
                         new
@@ -72,7 +74,7 @@ namespace M.Model.Migrations
                             Id = 2,
                             AdminName = "Mr.Fang",
                             AdminPwd = "Fh2269...",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 849, DateTimeKind.Local).AddTicks(4127),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(916),
                             IsDeleted = 0
                         });
                 });
@@ -98,700 +100,700 @@ namespace M.Model.Migrations
                         {
                             BGId = 1,
                             BGUrl = "http://mchen.vip/assets/images/background/bg1.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(2187),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(9062),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 2,
                             BGUrl = "http://mchen.vip/assets/images/background/bg2.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3111),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(14),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 3,
                             BGUrl = "http://mchen.vip/assets/images/background/bg3.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3134),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(38),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 4,
                             BGUrl = "http://mchen.vip/assets/images/background/bg4.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3144),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(49),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 5,
                             BGUrl = "http://mchen.vip/assets/images/background/bg5.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3154),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(58),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 6,
                             BGUrl = "http://mchen.vip/assets/images/background/bg6.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3164),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(69),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 7,
                             BGUrl = "http://mchen.vip/assets/images/background/bg7.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3173),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(77),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 8,
                             BGUrl = "http://mchen.vip/assets/images/background/bg8.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3182),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(86),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 9,
                             BGUrl = "http://mchen.vip/assets/images/background/bg9.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3190),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(132),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 10,
                             BGUrl = "http://mchen.vip/assets/images/background/bg10.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3200),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(146),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 11,
                             BGUrl = "http://mchen.vip/assets/images/background/bg11.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3209),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(155),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 12,
                             BGUrl = "http://mchen.vip/assets/images/background/bg12.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3218),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(164),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 13,
                             BGUrl = "http://mchen.vip/assets/images/background/bg13.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3227),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(173),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 14,
                             BGUrl = "http://mchen.vip/assets/images/background/bg14.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3235),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(182),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 15,
                             BGUrl = "http://mchen.vip/assets/images/background/bg15.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3244),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(190),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 16,
                             BGUrl = "http://mchen.vip/assets/images/background/bg16.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3252),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(199),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 17,
                             BGUrl = "http://mchen.vip/assets/images/background/bg17.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3261),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(208),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 18,
                             BGUrl = "http://mchen.vip/assets/images/background/bg18.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3308),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(217),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 19,
                             BGUrl = "http://mchen.vip/assets/images/background/bg19.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3318),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(226),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 20,
                             BGUrl = "http://mchen.vip/assets/images/background/bg20.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3326),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(235),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 21,
                             BGUrl = "http://mchen.vip/assets/images/background/bg21.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3335),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(244),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 22,
                             BGUrl = "http://mchen.vip/assets/images/background/bg22.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3343),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(253),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 23,
                             BGUrl = "http://mchen.vip/assets/images/background/bg23.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3352),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(261),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 24,
                             BGUrl = "http://mchen.vip/assets/images/background/bg24.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3361),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(270),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 25,
                             BGUrl = "http://mchen.vip/assets/images/background/bg25.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3369),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(279),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 26,
                             BGUrl = "http://mchen.vip/assets/images/background/bg26.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3378),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(287),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 27,
                             BGUrl = "http://mchen.vip/assets/images/background/bg27.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3386),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(296),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 28,
                             BGUrl = "http://mchen.vip/assets/images/background/bg28.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3395),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(332),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 29,
                             BGUrl = "http://mchen.vip/assets/images/background/bg29.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3404),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(343),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 30,
                             BGUrl = "http://mchen.vip/assets/images/background/bg30.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3413),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(352),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 31,
                             BGUrl = "http://mchen.vip/assets/images/background/bg31.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3421),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(360),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 32,
                             BGUrl = "http://mchen.vip/assets/images/background/bg32.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3430),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(369),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 33,
                             BGUrl = "http://mchen.vip/assets/images/background/bg33.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3439),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(378),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 34,
                             BGUrl = "http://mchen.vip/assets/images/background/bg34.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3448),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(388),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 35,
                             BGUrl = "http://mchen.vip/assets/images/background/bg35.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3457),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(397),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 36,
                             BGUrl = "http://mchen.vip/assets/images/background/bg36.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3465),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(406),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 37,
                             BGUrl = "http://mchen.vip/assets/images/background/bg37.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3531),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(414),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 38,
                             BGUrl = "http://mchen.vip/assets/images/background/bg38.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3540),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(423),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 39,
                             BGUrl = "http://mchen.vip/assets/images/background/bg39.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3548),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(432),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 40,
                             BGUrl = "http://mchen.vip/assets/images/background/bg40.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3557),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(441),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 41,
                             BGUrl = "http://mchen.vip/assets/images/background/bg41.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3566),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(449),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 42,
                             BGUrl = "http://mchen.vip/assets/images/background/bg42.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3574),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(458),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 43,
                             BGUrl = "http://mchen.vip/assets/images/background/bg43.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3583),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(467),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 44,
                             BGUrl = "http://mchen.vip/assets/images/background/bg44.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3591),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(476),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 45,
                             BGUrl = "http://mchen.vip/assets/images/background/bg45.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3600),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(484),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 46,
                             BGUrl = "http://mchen.vip/assets/images/background/bg46.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3608),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(493),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 47,
                             BGUrl = "http://mchen.vip/assets/images/background/bg47.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3617),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(549),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 48,
                             BGUrl = "http://mchen.vip/assets/images/background/bg48.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3625),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(560),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 49,
                             BGUrl = "http://mchen.vip/assets/images/background/bg49.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3634),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(569),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 50,
                             BGUrl = "http://mchen.vip/assets/images/background/bg50.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3642),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(577),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 51,
                             BGUrl = "http://mchen.vip/assets/images/background/bg51.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3651),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(586),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 52,
                             BGUrl = "http://mchen.vip/assets/images/background/bg52.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3659),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(595),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 53,
                             BGUrl = "http://mchen.vip/assets/images/background/bg53.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3668),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(604),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 54,
                             BGUrl = "http://mchen.vip/assets/images/background/bg54.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3676),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(612),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 55,
                             BGUrl = "http://mchen.vip/assets/images/background/bg55.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3685),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(621),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 56,
                             BGUrl = "http://mchen.vip/assets/images/background/bg56.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3694),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(630),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 57,
                             BGUrl = "http://mchen.vip/assets/images/background/bg57.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3732),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(639),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 58,
                             BGUrl = "http://mchen.vip/assets/images/background/bg58.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3741),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(647),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 59,
                             BGUrl = "http://mchen.vip/assets/images/background/bg59.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3750),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(656),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 60,
                             BGUrl = "http://mchen.vip/assets/images/background/bg60.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3758),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(665),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 61,
                             BGUrl = "http://mchen.vip/assets/images/background/bg61.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3767),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(673),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 62,
                             BGUrl = "http://mchen.vip/assets/images/background/bg62.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3775),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(682),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 63,
                             BGUrl = "http://mchen.vip/assets/images/background/bg63.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3784),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(691),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 64,
                             BGUrl = "http://mchen.vip/assets/images/background/bg64.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3793),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(700),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 65,
                             BGUrl = "http://mchen.vip/assets/images/background/bg65.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3801),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(709),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 66,
                             BGUrl = "http://mchen.vip/assets/images/background/bg66.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3811),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(748),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 67,
                             BGUrl = "http://mchen.vip/assets/images/background/bg67.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3820),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(758),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 68,
                             BGUrl = "http://mchen.vip/assets/images/background/bg68.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3828),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(766),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 69,
                             BGUrl = "http://mchen.vip/assets/images/background/bg69.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3837),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(775),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 70,
                             BGUrl = "http://mchen.vip/assets/images/background/bg70.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3855),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(795),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 71,
                             BGUrl = "http://mchen.vip/assets/images/background/bg71.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3864),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(804),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 72,
                             BGUrl = "http://mchen.vip/assets/images/background/bg72.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3872),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(812),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 73,
                             BGUrl = "http://mchen.vip/assets/images/background/bg73.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3881),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(821),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 74,
                             BGUrl = "http://mchen.vip/assets/images/background/bg74.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3955),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(830),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 75,
                             BGUrl = "http://mchen.vip/assets/images/background/bg75.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3966),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(839),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 76,
                             BGUrl = "http://mchen.vip/assets/images/background/bg76.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3975),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(848),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 77,
                             BGUrl = "http://mchen.vip/assets/images/background/bg77.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3984),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(857),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 78,
                             BGUrl = "http://mchen.vip/assets/images/background/bg78.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(3992),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(865),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 79,
                             BGUrl = "http://mchen.vip/assets/images/background/bg79.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4000),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(874),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 80,
                             BGUrl = "http://mchen.vip/assets/images/background/bg80.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4009),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(883),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 81,
                             BGUrl = "http://mchen.vip/assets/images/background/bg81.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4017),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(892),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 82,
                             BGUrl = "http://mchen.vip/assets/images/background/bg82.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4026),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(901),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 83,
                             BGUrl = "http://mchen.vip/assets/images/background/bg83.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4034),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(910),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 84,
                             BGUrl = "http://mchen.vip/assets/images/background/bg84.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4043),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(918),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 85,
                             BGUrl = "http://mchen.vip/assets/images/background/bg85.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4052),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(957),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 86,
                             BGUrl = "http://mchen.vip/assets/images/background/bg86.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4060),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(966),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 87,
                             BGUrl = "http://mchen.vip/assets/images/background/bg87.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4068),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(975),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 88,
                             BGUrl = "http://mchen.vip/assets/images/background/bg88.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4077),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(984),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 89,
                             BGUrl = "http://mchen.vip/assets/images/background/bg89.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4085),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(992),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 90,
                             BGUrl = "http://mchen.vip/assets/images/background/bg90.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4094),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1001),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 91,
                             BGUrl = "http://mchen.vip/assets/images/background/bg91.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4102),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1010),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 92,
                             BGUrl = "http://mchen.vip/assets/images/background/bg92.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4111),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1019),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 93,
                             BGUrl = "http://mchen.vip/assets/images/background/bg93.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4119),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1028),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 94,
                             BGUrl = "http://mchen.vip/assets/images/background/bg94.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4156),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1036),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 95,
                             BGUrl = "http://mchen.vip/assets/images/background/bg95.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4166),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1045),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 96,
                             BGUrl = "http://mchen.vip/assets/images/background/bg96.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4175),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1054),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 97,
                             BGUrl = "http://mchen.vip/assets/images/background/bg97.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4183),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1063),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 98,
                             BGUrl = "http://mchen.vip/assets/images/background/bg98.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4192),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1072),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 99,
                             BGUrl = "http://mchen.vip/assets/images/background/bg99.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4200),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1081),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 100,
                             BGUrl = "http://mchen.vip/assets/images/background/bg100.jpg",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4209),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1090),
                             IsDeleted = 0
                         });
                 });
@@ -819,49 +821,49 @@ namespace M.Model.Migrations
                         {
                             Id = 1,
                             Content = "当你的能力还撑不起你的野心的时，你就需要静下心来 好好学习。",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(4692),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(1584),
                             IsDeleted = 0
                         },
                         new
                         {
                             Id = 2,
                             Content = "脏的人多了，干净反倒成了一种错。",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(5423),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(2329),
                             IsDeleted = 0
                         },
                         new
                         {
                             Id = 3,
                             Content = "你羡慕的生活都是你没熬过的苦。",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(5431),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(2335),
                             IsDeleted = 0
                         },
                         new
                         {
                             Id = 4,
                             Content = "所谓天才，只不过是把别人喝咖啡的功夫都用在了工作上了。",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(5431),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(2336),
                             IsDeleted = 0
                         },
                         new
                         {
                             Id = 5,
                             Content = "生活便是寻求新的知识。——门捷列夫",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(5432),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(2337),
                             IsDeleted = 0
                         },
                         new
                         {
                             Id = 6,
                             Content = "如果你浪费了自己的年龄，那是挺可悲的。因为你的青春只能持续一点儿时间——很短的一点儿时间。",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(5433),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(2337),
                             IsDeleted = 0
                         },
                         new
                         {
                             Id = 7,
                             Content = "世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。",
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(5433),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 86, DateTimeKind.Local).AddTicks(2338),
                             IsDeleted = 0
                         });
                 });
@@ -911,7 +913,7 @@ namespace M.Model.Migrations
                         new
                         {
                             DLId = 1,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 849, DateTimeKind.Local).AddTicks(6013),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(2795),
                             DLDay = "6",
                             DLInfo = "希望以后和你的生活，温柔，有趣，不必太激烈，三餐，四季，不必太匆忙，毕竟我有一生的时间要和你浪费。",
                             DLMonth = "3",
@@ -973,71 +975,71 @@ namespace M.Model.Migrations
                         new
                         {
                             MenuID = 1,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(22),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(6958),
                             IsDeleted = 0,
                             MenuName = "首页",
                             MenuOrder = 1,
-                            MenuUrl = "https://home.mchen.vip",
+                            MenuUrl = "http://home.mchen.vip",
                             ParentId = 0
                         },
                         new
                         {
                             MenuID = 2,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1459),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8398),
                             IsDeleted = 0,
-                            MenuName = "QQ",
+                            MenuName = "Mr.Fang♥Mrs.Zhou",
                             MenuOrder = 2,
-                            MenuUrl = "https://wpa.qq.com/msgrd?v=3&uin=2875616188&site=qq&menu=yes",
+                            MenuUrl = "http://fh.mchen.vip",
                             ParentId = 0
                         },
                         new
                         {
                             MenuID = 3,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1472),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8411),
                             IsDeleted = 0,
-                            MenuName = "微信",
+                            MenuName = "QQ",
                             MenuOrder = 3,
-                            MenuUrl = "https://mchen.vip/accsets/images/weixin.jpg",
+                            MenuUrl = "https://wpa.qq.com/msgrd?v=3&uin=2875616188&site=qq&menu=yes",
                             ParentId = 0
                         },
                         new
                         {
                             MenuID = 4,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1473),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8412),
                             IsDeleted = 0,
-                            MenuName = "Mr.Fang♥Mrs.Zhou",
+                            MenuName = "微信",
                             MenuOrder = 4,
-                            MenuUrl = "https://fh.mchen.vip",
+                            MenuUrl = "http://mchen.vip/accsets/images/weixin.jpg",
                             ParentId = 0
                         },
                         new
                         {
                             MenuID = 5,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1474),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8413),
                             IsDeleted = 0,
                             MenuName = "表白小工具",
                             MenuOrder = 5,
-                            MenuUrl = "https://devlove.mchen.vip",
+                            MenuUrl = "http://devlove.mchen.vip",
                             ParentId = 0
                         },
                         new
                         {
                             MenuID = 6,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1475),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8414),
                             IsDeleted = 0,
                             MenuName = "实用小工具",
                             MenuOrder = 6,
-                            MenuUrl = "https://tool.mchen.vip",
+                            MenuUrl = "http://tool.mchen.vip",
                             ParentId = 0
                         },
                         new
                         {
                             MenuID = 7,
-                            CreateTime = new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1475),
+                            CreateTime = new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8415),
                             IsDeleted = 0,
                             MenuName = "休闲小游戏",
                             MenuOrder = 7,
-                            MenuUrl = "https://game.mchen.vip",
+                            MenuUrl = "http://game.mchen.vip",
                             ParentId = 0
                         });
                 });

@@ -42,49 +42,49 @@ namespace M.Model.Db
                 {
                     MenuID = 1,
                     MenuName = "首页",
-                    MenuUrl = "http://home.mchen.vip",
+                    MenuUrl = "https://home.mchen.vip",
                     MenuOrder = 1
                 },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 2,
-                    MenuName = "Mr.Fang♥Mrs.Zhou",
-                    MenuUrl = "http://fh.mchen.vip",
+                    MenuName = "QQ",
+                    MenuUrl = "https://wpa.qq.com/msgrd?v=3&uin=2875616188&site=qq&menu=yes",
                     MenuOrder = 2
                 },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 3,
-                    MenuName = "QQ",
-                    MenuUrl = "https://wpa.qq.com/msgrd?v=3&uin=2875616188&site=qq&menu=yes",
+                    MenuName = "微信",
+                    MenuUrl = "https://mchen.vip/accsets/images/weixin.jpg",
                     MenuOrder = 3
                 },
-                new GuidePagesMenuInfo()
-                {
-                    MenuID = 4,
-                    MenuName = "微信",
-                    MenuUrl = "http://mchen.vip/accsets/images/weixin.jpg",
-                    MenuOrder = 4
-                },
+                 new GuidePagesMenuInfo()
+                 {
+                     MenuID = 4,
+                     MenuName = "Mr.Fang♥Mrs.Zhou",
+                     MenuUrl = "https://fh.mchen.vip",
+                     MenuOrder = 4
+                 },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 5,
                     MenuName = "表白小工具",
-                    MenuUrl = "http://devlove.mchen.vip",
+                    MenuUrl = "https://devlove.mchen.vip",
                     MenuOrder = 5
                 },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 6,
                     MenuName = "实用小工具",
-                    MenuUrl = "http://tool.mchen.vip",
+                    MenuUrl = "https://tool.mchen.vip",
                     MenuOrder = 6
                 },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 7,
                     MenuName = "休闲小游戏",
-                    MenuUrl = "http://game.mchen.vip",
+                    MenuUrl = "https://game.mchen.vip",
                     MenuOrder = 7
                 });
 
@@ -94,7 +94,7 @@ namespace M.Model.Db
                 new BackGroundImageInfo()
                 {
                     BGId = i,
-                    BGUrl = "http://mchen.vip/accsets/images/background/bg" + i
+                    BGUrl = "http://mchen.vip/assets/images/background/bg" + i + ".jpg"
                 });
             }
 
