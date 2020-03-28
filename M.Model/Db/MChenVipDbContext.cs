@@ -56,7 +56,7 @@ namespace M.Model.Db
                 {
                     MenuID = 3,
                     MenuName = "微信",
-                    MenuUrl = "https://mchen.vip/accsets/images/weixin.jpg",
+                    MenuUrl = "https://mchen.vip/assets/images/weixin.jpg",
                     MenuOrder = 3
                 },
                  new GuidePagesMenuInfo()
