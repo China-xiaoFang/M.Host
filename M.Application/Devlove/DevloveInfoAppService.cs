@@ -21,9 +21,9 @@ namespace M.Application.DevLove
     //[Authorize(policy: "Admin")]
     public class DevLoveInfoAppService
     {
-        private readonly MChenVipDbContext _context;
+        private readonly FangHuaHostDbContext _context;
 
-        public DevLoveInfoAppService(MChenVipDbContext context)
+        public DevLoveInfoAppService(FangHuaHostDbContext context)
         {
             _context = context;
         }

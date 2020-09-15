@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
-    [DbContext(typeof(MChenVipDbContext))]
+    [DbContext(typeof(FangHuaHostDbContext))]
     [Migration("20200325110806_Add_Table_AccessHistoryLog")]
     partial class Add_Table_AccessHistoryLog
     {
@@ -183,7 +183,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "首页",
                             MenuOrder = 1,
-                            MenuUrl = "http://home.mchen.vip",
+                            MenuUrl = "http://home.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -193,7 +193,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "Mr.Fang♥Mrs.Zhou",
                             MenuOrder = 2,
-                            MenuUrl = "http://fh.mchen.vip",
+                            MenuUrl = "http://fh.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -213,7 +213,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "微信",
                             MenuOrder = 4,
-                            MenuUrl = "http://mchen.vip/accsets/images/weixin.jpg",
+                            MenuUrl = "http://fanghua.host/accsets/images/weixin.jpg",
                             ParentId = 0
                         },
                         new
@@ -223,7 +223,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "表白小工具",
                             MenuOrder = 5,
-                            MenuUrl = "http://devlove.mchen.vip",
+                            MenuUrl = "http://devlove.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -233,7 +233,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "实用小工具",
                             MenuOrder = 6,
-                            MenuUrl = "http://tool.mchen.vip",
+                            MenuUrl = "http://tool.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -243,7 +243,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "休闲小游戏",
                             MenuOrder = 7,
-                            MenuUrl = "http://game.mchen.vip",
+                            MenuUrl = "http://game.fanghua.host",
                             ParentId = 0
                         });
                 });

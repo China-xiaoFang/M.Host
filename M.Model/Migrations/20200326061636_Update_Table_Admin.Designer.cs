@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
-    [DbContext(typeof(MChenVipDbContext))]
+    [DbContext(typeof(FangHuaHostDbContext))]
     [Migration("20200326061636_Update_Table_Admin")]
     partial class Update_Table_Admin
     {
@@ -96,502 +96,502 @@ namespace M.Model.Migrations
                         new
                         {
                             BGId = 1,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg1"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg1"
                         },
                         new
                         {
                             BGId = 2,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg2"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg2"
                         },
                         new
                         {
                             BGId = 3,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg3"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg3"
                         },
                         new
                         {
                             BGId = 4,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg4"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg4"
                         },
                         new
                         {
                             BGId = 5,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg5"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg5"
                         },
                         new
                         {
                             BGId = 6,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg6"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg6"
                         },
                         new
                         {
                             BGId = 7,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg7"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg7"
                         },
                         new
                         {
                             BGId = 8,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg8"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg8"
                         },
                         new
                         {
                             BGId = 9,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg9"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg9"
                         },
                         new
                         {
                             BGId = 10,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg10"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg10"
                         },
                         new
                         {
                             BGId = 11,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg11"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg11"
                         },
                         new
                         {
                             BGId = 12,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg12"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg12"
                         },
                         new
                         {
                             BGId = 13,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg13"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg13"
                         },
                         new
                         {
                             BGId = 14,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg14"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg14"
                         },
                         new
                         {
                             BGId = 15,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg15"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg15"
                         },
                         new
                         {
                             BGId = 16,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg16"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg16"
                         },
                         new
                         {
                             BGId = 17,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg17"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg17"
                         },
                         new
                         {
                             BGId = 18,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg18"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg18"
                         },
                         new
                         {
                             BGId = 19,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg19"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg19"
                         },
                         new
                         {
                             BGId = 20,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg20"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg20"
                         },
                         new
                         {
                             BGId = 21,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg21"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg21"
                         },
                         new
                         {
                             BGId = 22,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg22"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg22"
                         },
                         new
                         {
                             BGId = 23,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg23"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg23"
                         },
                         new
                         {
                             BGId = 24,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg24"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg24"
                         },
                         new
                         {
                             BGId = 25,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg25"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg25"
                         },
                         new
                         {
                             BGId = 26,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg26"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg26"
                         },
                         new
                         {
                             BGId = 27,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg27"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg27"
                         },
                         new
                         {
                             BGId = 28,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg28"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg28"
                         },
                         new
                         {
                             BGId = 29,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg29"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg29"
                         },
                         new
                         {
                             BGId = 30,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg30"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg30"
                         },
                         new
                         {
                             BGId = 31,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg31"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg31"
                         },
                         new
                         {
                             BGId = 32,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg32"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg32"
                         },
                         new
                         {
                             BGId = 33,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg33"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg33"
                         },
                         new
                         {
                             BGId = 34,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg34"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg34"
                         },
                         new
                         {
                             BGId = 35,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg35"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg35"
                         },
                         new
                         {
                             BGId = 36,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg36"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg36"
                         },
                         new
                         {
                             BGId = 37,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg37"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg37"
                         },
                         new
                         {
                             BGId = 38,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg38"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg38"
                         },
                         new
                         {
                             BGId = 39,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg39"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg39"
                         },
                         new
                         {
                             BGId = 40,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg40"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg40"
                         },
                         new
                         {
                             BGId = 41,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg41"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg41"
                         },
                         new
                         {
                             BGId = 42,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg42"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg42"
                         },
                         new
                         {
                             BGId = 43,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg43"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg43"
                         },
                         new
                         {
                             BGId = 44,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg44"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg44"
                         },
                         new
                         {
                             BGId = 45,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg45"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg45"
                         },
                         new
                         {
                             BGId = 46,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg46"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg46"
                         },
                         new
                         {
                             BGId = 47,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg47"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg47"
                         },
                         new
                         {
                             BGId = 48,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg48"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg48"
                         },
                         new
                         {
                             BGId = 49,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg49"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg49"
                         },
                         new
                         {
                             BGId = 50,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg50"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg50"
                         },
                         new
                         {
                             BGId = 51,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg51"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg51"
                         },
                         new
                         {
                             BGId = 52,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg52"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg52"
                         },
                         new
                         {
                             BGId = 53,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg53"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg53"
                         },
                         new
                         {
                             BGId = 54,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg54"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg54"
                         },
                         new
                         {
                             BGId = 55,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg55"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg55"
                         },
                         new
                         {
                             BGId = 56,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg56"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg56"
                         },
                         new
                         {
                             BGId = 57,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg57"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg57"
                         },
                         new
                         {
                             BGId = 58,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg58"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg58"
                         },
                         new
                         {
                             BGId = 59,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg59"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg59"
                         },
                         new
                         {
                             BGId = 60,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg60"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg60"
                         },
                         new
                         {
                             BGId = 61,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg61"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg61"
                         },
                         new
                         {
                             BGId = 62,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg62"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg62"
                         },
                         new
                         {
                             BGId = 63,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg63"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg63"
                         },
                         new
                         {
                             BGId = 64,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg64"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg64"
                         },
                         new
                         {
                             BGId = 65,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg65"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg65"
                         },
                         new
                         {
                             BGId = 66,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg66"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg66"
                         },
                         new
                         {
                             BGId = 67,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg67"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg67"
                         },
                         new
                         {
                             BGId = 68,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg68"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg68"
                         },
                         new
                         {
                             BGId = 69,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg69"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg69"
                         },
                         new
                         {
                             BGId = 70,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg70"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg70"
                         },
                         new
                         {
                             BGId = 71,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg71"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg71"
                         },
                         new
                         {
                             BGId = 72,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg72"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg72"
                         },
                         new
                         {
                             BGId = 73,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg73"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg73"
                         },
                         new
                         {
                             BGId = 74,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg74"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg74"
                         },
                         new
                         {
                             BGId = 75,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg75"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg75"
                         },
                         new
                         {
                             BGId = 76,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg76"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg76"
                         },
                         new
                         {
                             BGId = 77,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg77"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg77"
                         },
                         new
                         {
                             BGId = 78,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg78"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg78"
                         },
                         new
                         {
                             BGId = 79,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg79"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg79"
                         },
                         new
                         {
                             BGId = 80,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg80"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg80"
                         },
                         new
                         {
                             BGId = 81,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg81"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg81"
                         },
                         new
                         {
                             BGId = 82,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg82"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg82"
                         },
                         new
                         {
                             BGId = 83,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg83"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg83"
                         },
                         new
                         {
                             BGId = 84,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg84"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg84"
                         },
                         new
                         {
                             BGId = 85,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg85"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg85"
                         },
                         new
                         {
                             BGId = 86,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg86"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg86"
                         },
                         new
                         {
                             BGId = 87,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg87"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg87"
                         },
                         new
                         {
                             BGId = 88,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg88"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg88"
                         },
                         new
                         {
                             BGId = 89,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg89"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg89"
                         },
                         new
                         {
                             BGId = 90,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg90"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg90"
                         },
                         new
                         {
                             BGId = 91,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg91"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg91"
                         },
                         new
                         {
                             BGId = 92,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg92"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg92"
                         },
                         new
                         {
                             BGId = 93,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg93"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg93"
                         },
                         new
                         {
                             BGId = 94,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg94"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg94"
                         },
                         new
                         {
                             BGId = 95,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg95"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg95"
                         },
                         new
                         {
                             BGId = 96,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg96"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg96"
                         },
                         new
                         {
                             BGId = 97,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg97"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg97"
                         },
                         new
                         {
                             BGId = 98,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg98"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg98"
                         },
                         new
                         {
                             BGId = 99,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg99"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg99"
                         },
                         new
                         {
                             BGId = 100,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg100"
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg100"
                         });
                 });
 
@@ -776,7 +776,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "首页",
                             MenuOrder = 1,
-                            MenuUrl = "http://home.mchen.vip",
+                            MenuUrl = "http://home.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -786,7 +786,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "Mr.Fang♥Mrs.Zhou",
                             MenuOrder = 2,
-                            MenuUrl = "http://fh.mchen.vip",
+                            MenuUrl = "http://fh.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -806,7 +806,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "微信",
                             MenuOrder = 4,
-                            MenuUrl = "http://mchen.vip/accsets/images/weixin.jpg",
+                            MenuUrl = "http://fanghua.host/accsets/images/weixin.jpg",
                             ParentId = 0
                         },
                         new
@@ -816,7 +816,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "表白小工具",
                             MenuOrder = 5,
-                            MenuUrl = "http://devlove.mchen.vip",
+                            MenuUrl = "http://devlove.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -826,7 +826,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "实用小工具",
                             MenuOrder = 6,
-                            MenuUrl = "http://tool.mchen.vip",
+                            MenuUrl = "http://tool.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -836,7 +836,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "休闲小游戏",
                             MenuOrder = 7,
-                            MenuUrl = "http://game.mchen.vip",
+                            MenuUrl = "http://game.fanghua.host",
                             ParentId = 0
                         });
                 });

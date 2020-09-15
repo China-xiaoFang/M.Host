@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
-    [DbContext(typeof(MChenVipDbContext))]
+    [DbContext(typeof(FangHuaHostDbContext))]
     [Migration("20200319151056_Initial_Db")]
     partial class Initial_Db
     {

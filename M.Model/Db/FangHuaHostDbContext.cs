@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace M.Model.Db
 {
-    public class MChenVipDbContext : DbContext
+    public class FangHuaHostDbContext : DbContext
     {
-        public MChenVipDbContext(DbContextOptions<MChenVipDbContext> options)
+        public FangHuaHostDbContext(DbContextOptions<FangHuaHostDbContext> options)
             : base(options)
         {
         }
@@ -42,7 +42,7 @@ namespace M.Model.Db
                 {
                     MenuID = 1,
                     MenuName = "首页",
-                    MenuUrl = "https://home.mchen.vip",
+                    MenuUrl = "https://home.fanghua.host",
                     MenuOrder = 1
                 },
                 new GuidePagesMenuInfo()
@@ -56,35 +56,35 @@ namespace M.Model.Db
                 {
                     MenuID = 3,
                     MenuName = "微信",
-                    MenuUrl = "https://mchen.vip/assets/images/weixin.jpg",
+                    MenuUrl = "https://fanghua.host/assets/images/weixin.jpg",
                     MenuOrder = 3
                 },
                  new GuidePagesMenuInfo()
                  {
                      MenuID = 4,
                      MenuName = "Mr.Fang♥Mrs.Zhou",
-                     MenuUrl = "https://fh.mchen.vip",
+                     MenuUrl = "https://fh.fanghua.host",
                      MenuOrder = 4
                  },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 5,
                     MenuName = "表白小工具",
-                    MenuUrl = "https://devlove.mchen.vip",
+                    MenuUrl = "https://devlove.fanghua.host",
                     MenuOrder = 5
                 },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 6,
                     MenuName = "实用小工具",
-                    MenuUrl = "https://tool.mchen.vip",
+                    MenuUrl = "https://tool.fanghua.host",
                     MenuOrder = 6
                 },
                 new GuidePagesMenuInfo()
                 {
                     MenuID = 7,
                     MenuName = "休闲小游戏",
-                    MenuUrl = "https://game.mchen.vip",
+                    MenuUrl = "https://game.fanghua.host",
                     MenuOrder = 7
                 });
 
@@ -94,7 +94,7 @@ namespace M.Model.Db
                 new BackGroundImageInfo()
                 {
                     BGId = i,
-                    BGUrl = "http://mchen.vip/assets/images/background/bg" + i + ".jpg"
+                    BGUrl = "http://fanghua.host/assets/images/background/bg" + i + ".jpg"
                 });
             }
 

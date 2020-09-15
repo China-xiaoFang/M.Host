@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M.Model.Migrations
 {
-    [DbContext(typeof(MChenVipDbContext))]
+    [DbContext(typeof(FangHuaHostDbContext))]
     [Migration("20200326081053_Update_Table_BackGroundImageInfo")]
     partial class Update_Table_BackGroundImageInfo
     {
@@ -100,700 +100,700 @@ namespace M.Model.Migrations
                         new
                         {
                             BGId = 1,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg1",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg1",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(5734),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 2,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg2",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg2",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6319),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 3,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg3",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg3",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6345),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 4,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg4",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg4",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6356),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 5,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg5",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg5",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6364),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 6,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg6",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg6",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6375),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 7,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg7",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg7",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6384),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 8,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg8",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg8",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6393),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 9,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg9",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg9",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6402),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 10,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg10",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg10",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6411),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 11,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg11",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg11",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6421),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 12,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg12",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg12",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6430),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 13,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg13",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg13",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6438),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 14,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg14",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg14",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6447),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 15,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg15",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg15",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6488),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 16,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg16",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg16",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6498),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 17,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg17",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg17",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6507),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 18,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg18",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg18",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6516),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 19,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg19",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg19",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6525),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 20,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg20",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg20",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6534),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 21,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg21",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg21",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6542),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 22,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg22",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg22",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6551),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 23,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg23",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg23",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6559),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 24,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg24",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg24",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6568),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 25,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg25",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg25",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6576),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 26,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg26",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg26",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6585),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 27,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg27",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg27",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6594),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 28,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg28",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg28",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6602),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 29,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg29",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg29",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6611),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 30,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg30",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg30",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6620),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 31,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg31",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg31",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6629),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 32,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg32",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg32",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6637),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 33,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg33",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg33",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6646),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 34,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg34",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg34",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6685),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 35,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg35",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg35",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6694),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 36,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg36",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg36",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6703),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 37,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg37",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg37",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6711),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 38,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg38",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg38",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6720),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 39,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg39",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg39",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6729),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 40,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg40",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg40",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6737),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 41,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg41",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg41",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6746),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 42,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg42",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg42",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6754),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 43,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg43",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg43",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6763),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 44,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg44",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg44",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6771),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 45,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg45",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg45",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6780),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 46,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg46",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg46",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6788),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 47,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg47",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg47",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6797),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 48,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg48",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg48",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6806),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 49,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg49",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg49",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6814),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 50,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg50",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg50",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6823),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 51,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg51",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg51",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6831),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 52,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg52",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg52",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6867),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 53,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg53",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg53",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6877),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 54,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg54",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg54",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6885),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 55,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg55",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg55",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6894),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 56,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg56",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg56",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6902),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 57,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg57",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg57",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6911),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 58,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg58",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg58",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6919),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 59,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg59",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg59",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6928),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 60,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg60",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg60",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6936),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 61,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg61",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg61",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6945),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 62,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg62",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg62",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6954),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 63,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg63",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg63",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6962),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 64,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg64",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg64",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6971),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 65,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg65",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg65",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6979),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 66,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg66",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg66",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6989),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 67,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg67",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg67",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(6998),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 68,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg68",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg68",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7006),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 69,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg69",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg69",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7043),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 70,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg70",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg70",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7061),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 71,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg71",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg71",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7070),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 72,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg72",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg72",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7079),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 73,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg73",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg73",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7087),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 74,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg74",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg74",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7096),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 75,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg75",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg75",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7104),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 76,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg76",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg76",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7113),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 77,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg77",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg77",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7121),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 78,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg78",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg78",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7130),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 79,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg79",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg79",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7138),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 80,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg80",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg80",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7147),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 81,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg81",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg81",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7156),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 82,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg82",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg82",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7164),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 83,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg83",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg83",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7172),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 84,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg84",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg84",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7181),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 85,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg85",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg85",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7190),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 86,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg86",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg86",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7198),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 87,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg87",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg87",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7207),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 88,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg88",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg88",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7267),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 89,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg89",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg89",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7278),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 90,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg90",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg90",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7287),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 91,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg91",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg91",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7295),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 92,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg92",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg92",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7304),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 93,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg93",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg93",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7312),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 94,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg94",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg94",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7321),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 95,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg95",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg95",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7329),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 96,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg96",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg96",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7338),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 97,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg97",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg97",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7346),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 98,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg98",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg98",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7355),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 99,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg99",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg99",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7363),
                             IsDeleted = 0
                         },
                         new
                         {
                             BGId = 100,
-                            BGUrl = "http://mchen.vip/accsets/images/background/bg100",
+                            BGUrl = "http://fanghua.host/accsets/images/background/bg100",
                             CreateTime = new DateTime(2020, 3, 26, 16, 10, 53, 705, DateTimeKind.Local).AddTicks(7372),
                             IsDeleted = 0
                         });
@@ -980,7 +980,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "首页",
                             MenuOrder = 1,
-                            MenuUrl = "http://home.mchen.vip",
+                            MenuUrl = "http://home.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -990,7 +990,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "Mr.Fang♥Mrs.Zhou",
                             MenuOrder = 2,
-                            MenuUrl = "http://fh.mchen.vip",
+                            MenuUrl = "http://fh.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -1010,7 +1010,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "微信",
                             MenuOrder = 4,
-                            MenuUrl = "http://mchen.vip/accsets/images/weixin.jpg",
+                            MenuUrl = "http://fanghua.host/accsets/images/weixin.jpg",
                             ParentId = 0
                         },
                         new
@@ -1020,7 +1020,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "表白小工具",
                             MenuOrder = 5,
-                            MenuUrl = "http://devlove.mchen.vip",
+                            MenuUrl = "http://devlove.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -1030,7 +1030,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "实用小工具",
                             MenuOrder = 6,
-                            MenuUrl = "http://tool.mchen.vip",
+                            MenuUrl = "http://tool.fanghua.host",
                             ParentId = 0
                         },
                         new
@@ -1040,7 +1040,7 @@ namespace M.Model.Migrations
                             IsDeleted = 0,
                             MenuName = "休闲小游戏",
                             MenuOrder = 7,
-                            MenuUrl = "http://game.mchen.vip",
+                            MenuUrl = "http://game.fanghua.host",
                             ParentId = 0
                         });
                 });

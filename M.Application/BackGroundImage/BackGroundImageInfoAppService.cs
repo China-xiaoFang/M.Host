@@ -17,9 +17,9 @@ namespace M.Application.BackGroundImage
     [EnableCors("CustomCorsPolicy")]
     public class BackGroundImageInfoAppService
     {
-        private readonly MChenVipDbContext _context;
+        private readonly FangHuaHostDbContext _context;
 
-        public BackGroundImageInfoAppService(MChenVipDbContext context)
+        public BackGroundImageInfoAppService(FangHuaHostDbContext context)
         {
             _context = context;
         }

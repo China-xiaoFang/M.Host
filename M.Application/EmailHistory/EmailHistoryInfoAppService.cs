@@ -27,10 +27,10 @@ namespace M.Application.EmailHistory
     {
         // HttpGet 查询  HttpPost 新增  HttpPut 修改  HttpDelete 删除
 
-        private readonly MChenVipDbContext _context;
+        private readonly FangHuaHostDbContext _context;
         private readonly EmailServices _emailServices;
 
-        public EmailHistoryInfoAppService(MChenVipDbContext context)
+        public EmailHistoryInfoAppService(FangHuaHostDbContext context)
         {
             _context = context;
             _emailServices = new EmailServices();

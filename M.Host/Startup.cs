@@ -82,7 +82,7 @@ namespace M.Host
             #endregion JWT
 
             // 注册DB为服务
-            services.AddDbContext<MChenVipDbContext>();
+            services.AddDbContext<FangHuaHostDbContext>();
 
             #region 注册Swagger生成器
 
@@ -97,7 +97,7 @@ namespace M.Host
                     License = new License
                     {
                         Name = $"版权所有 ©{Project_Name}",
-                        Url = "http://mchen.vip/"
+                        Url = "http://fanghua.host/"
                     }
                 });
                 // 为Swagger JSON 和 UI设置xml文档注释路径
@@ -152,7 +152,7 @@ namespace M.Host
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, MChenVipDbContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, FangHuaHostDbContext context)
         {
             if (env.IsDevelopment())
             {

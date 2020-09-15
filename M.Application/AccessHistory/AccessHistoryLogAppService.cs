@@ -16,9 +16,9 @@ namespace M.Application.AccessHistory
     //[HiddenApi]
     public class AccessHistoryLogAppService
     {
-        private readonly MChenVipDbContext _context;
+        private readonly FangHuaHostDbContext _context;
 
-        public AccessHistoryLogAppService(MChenVipDbContext context)
+        public AccessHistoryLogAppService(FangHuaHostDbContext context)
         {
             _context = context;
         }

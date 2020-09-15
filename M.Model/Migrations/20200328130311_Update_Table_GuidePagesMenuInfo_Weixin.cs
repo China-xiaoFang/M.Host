@@ -796,7 +796,7 @@ namespace M.Model.Migrations
                 keyColumn: "MenuID",
                 keyValue: 3,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 21, 3, 10, 890, DateTimeKind.Local).AddTicks(8801), "https://mchen.vip/assets/images/weixin.jpg" });
+                values: new object[] { new DateTime(2020, 3, 28, 21, 3, 10, 890, DateTimeKind.Local).AddTicks(8801), "https://fanghua.host/assets/images/weixin.jpg" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
@@ -1618,7 +1618,7 @@ namespace M.Model.Migrations
                 keyColumn: "MenuID",
                 keyValue: 3,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1472), "https://mchen.vip/accsets/images/weixin.jpg" });
+                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1472), "https://fanghua.host/accsets/images/weixin.jpg" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",

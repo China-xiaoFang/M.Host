@@ -5,7 +5,7 @@ namespace M.Model
 {
     public class DbInitializer
     {
-        public void InitializeAsync(MChenVipDbContext context)
+        public void InitializeAsync(FangHuaHostDbContext context)
         {
             // 根据Migrations修改/创建数据库
             context.Database.MigrateAsync();

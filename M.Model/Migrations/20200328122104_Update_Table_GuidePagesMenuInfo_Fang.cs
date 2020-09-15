@@ -782,7 +782,7 @@ namespace M.Model.Migrations
                 keyColumn: "MenuID",
                 keyValue: 1,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(22), "https://home.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(22), "https://home.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
@@ -796,35 +796,35 @@ namespace M.Model.Migrations
                 keyColumn: "MenuID",
                 keyValue: 3,
                 columns: new[] { "CreateTime", "MenuName", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1472), "微信", "https://mchen.vip/accsets/images/weixin.jpg" });
+                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1472), "微信", "https://fanghua.host/accsets/images/weixin.jpg" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 4,
                 columns: new[] { "CreateTime", "MenuName", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1473), "Mr.Fang♥Mrs.Zhou", "https://fh.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1473), "Mr.Fang♥Mrs.Zhou", "https://fh.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 5,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1474), "https://devlove.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1474), "https://devlove.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 6,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1475), "https://tool.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1475), "https://tool.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 7,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1475), "https://game.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 20, 21, 3, 850, DateTimeKind.Local).AddTicks(1475), "https://game.fanghua.host" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -1604,14 +1604,14 @@ namespace M.Model.Migrations
                 keyColumn: "MenuID",
                 keyValue: 1,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(6958), "http://home.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(6958), "http://home.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 2,
                 columns: new[] { "CreateTime", "MenuName", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8398), "Mr.Fang♥Mrs.Zhou", "http://fh.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8398), "Mr.Fang♥Mrs.Zhou", "http://fh.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
@@ -1625,28 +1625,28 @@ namespace M.Model.Migrations
                 keyColumn: "MenuID",
                 keyValue: 4,
                 columns: new[] { "CreateTime", "MenuName", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8412), "微信", "http://mchen.vip/accsets/images/weixin.jpg" });
+                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8412), "微信", "http://fanghua.host/accsets/images/weixin.jpg" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 5,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8413), "http://devlove.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8413), "http://devlove.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 6,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8414), "http://tool.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8414), "http://tool.fanghua.host" });
 
             migrationBuilder.UpdateData(
                 table: "GuidePagesMenuInfo",
                 keyColumn: "MenuID",
                 keyValue: 7,
                 columns: new[] { "CreateTime", "MenuUrl" },
-                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8415), "http://game.mchen.vip" });
+                values: new object[] { new DateTime(2020, 3, 28, 17, 23, 14, 85, DateTimeKind.Local).AddTicks(8415), "http://game.fanghua.host" });
         }
     }
 }

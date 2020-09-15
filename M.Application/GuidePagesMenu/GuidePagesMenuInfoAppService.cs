@@ -17,9 +17,9 @@ namespace M.Application.GuidePagesMenu
     [EnableCors("CustomCorsPolicy")]
     public class GuidePagesMenuInfoAppService
     {
-        private readonly MChenVipDbContext _context;
+        private readonly FangHuaHostDbContext _context;
 
-        public GuidePagesMenuInfoAppService(MChenVipDbContext context)
+        public GuidePagesMenuInfoAppService(FangHuaHostDbContext context)
         {
             _context = context;
         }

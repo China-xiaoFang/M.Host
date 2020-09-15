@@ -14,9 +14,9 @@ namespace M.Application.Admin
     [HiddenApi]
     public class AdminAppService
     {
-        private readonly MChenVipDbContext _context;
+        private readonly FangHuaHostDbContext _context;
 
-        public AdminAppService(MChenVipDbContext context)
+        public AdminAppService(FangHuaHostDbContext context)
         {
             _context = context;
         }

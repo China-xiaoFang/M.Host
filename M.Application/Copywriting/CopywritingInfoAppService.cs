@@ -17,9 +17,9 @@ namespace M.Application.Copywriting
     [EnableCors("CustomCorsPolicy")]
     public class CopywritingInfoAppService
     {
-        private readonly MChenVipDbContext _context;
+        private readonly FangHuaHostDbContext _context;
 
-        public CopywritingInfoAppService(MChenVipDbContext context)
+        public CopywritingInfoAppService(FangHuaHostDbContext context)
         {
             _context = context;
         }
